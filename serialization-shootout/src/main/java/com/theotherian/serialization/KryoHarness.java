@@ -16,7 +16,7 @@ public class KryoHarness {
   
   public static void run(int times, boolean log, boolean printStats) throws Exception {
     final Kryo kryo = new Kryo();
-    SerializationOptimizer.optimize(kryo);
+//    SerializationOptimizer.optimize(kryo);
     final Output output = new Output();
     final Input input = new Input();
     Harness harness = new Harness(new IORunner() {
