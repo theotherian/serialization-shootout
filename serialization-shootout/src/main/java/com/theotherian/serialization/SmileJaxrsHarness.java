@@ -22,11 +22,15 @@ public class SmileJaxrsHarness {
       @Override
       public IOResult serializeDeserialize(Car car) throws Exception {
         ByteArrayOutputStream output = new ByteArrayOutputStream();
+        long startM = System.nanoTime();
         provider.writeTo(car, Car.class, null, null, null, null, output);
+        long endM = System.nanoTime();
         int size = output.size();
         InputStream input = new ByteArrayInputStream(output.toByteArray());
+        long startU = System.nanoTime();
         Car salvage = (Car) provider.readFrom(Object.class, Car.class, null, null, null, input);
-        return new IOResult(salvage, size);
+        long endU = System.nanoTime();
+        return new IOResult(salvage, size, (endM - startM), (endU - startU));
       }
     });
     

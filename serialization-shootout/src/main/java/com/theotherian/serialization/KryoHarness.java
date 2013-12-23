@@ -15,19 +15,26 @@ public class KryoHarness {
   }
   
   public static void run(int times, boolean log, boolean printStats) throws Exception {
-    final Kryo kryo = new Kryo();
 //    SerializationOptimizer.optimize(kryo);
-    final Output output = new Output();
-    final Input input = new Input();
+//    final Output output = new Output();
+//    final Input input = new Input();
+    final Kryo kryo = new Kryo();
     Harness harness = new Harness(new IORunner() {
       
       @Override
       public IOResult serializeDeserialize(Car car) throws Exception {
+        final Output output = new Output();
+        final Input input = new Input();
         output.setBuffer(new byte[10000]);
+        long startM = System.nanoTime();
         kryo.writeObject(output, car);
+        long endM = System.nanoTime();
         int size = output.position();
         input.setBuffer(output.getBuffer());
-        return new IOResult(kryo.readObject(input, Car.class), size);
+        long startU = System.nanoTime();
+        Car read = kryo.readObject(input, Car.class);
+        long endU = System.nanoTime();
+        return new IOResult(read, size, (endM - startM), (endU - startU));
       }
     });
     harness.run("Kryo", times, log, printStats);

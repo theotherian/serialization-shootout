@@ -9,12 +9,13 @@ public class ExecuteAll {
     KryoHarness.run(runs, log, printStats);
     SmileHarness.run(runs, log, printStats);
     JsonHarness.run(runs, log, printStats);
+    SmileJaxrsHarness.run(runs, log, printStats);
     printStats = true;
     runs = 10;
     SmileHarness.run(runs, log, printStats);
     KryoHarness.run(runs, log, printStats);
     JsonHarness.run(runs, log, printStats);
-//    SmileJaxrsHarness.run(runs, log);
+    SmileJaxrsHarness.run(runs, log, printStats);
   }
 
 }

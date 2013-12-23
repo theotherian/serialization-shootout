@@ -19,8 +19,13 @@ public class SmileHarness {
 
       @Override
       public IOResult serializeDeserialize(Car car) throws Exception {
+        long startM = System.nanoTime();
         byte[] carBytes = mapper.writeValueAsBytes(car);
-        return new IOResult(mapper.readValue(carBytes, Car.class), carBytes.length);
+        long endM = System.nanoTime();
+        long startU = System.nanoTime();
+        Car output = mapper.readValue(carBytes, Car.class);
+        long endU = System.nanoTime();
+        return new IOResult(output, carBytes.length, (endM - startM), (endU - startU));
       }
     });
 

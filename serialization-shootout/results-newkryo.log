@@ -1,0 +1,24 @@
+-------------------------------------------------------
+[Smile] Number of executions: 10
+[Smile] Batch size per execution: 100000
+[Smile] Average time: 1858ms
+[Smile] Initial execution time: 1931ms
+[Smile] Average time (excluding first): 1850ms
+[Smile] Average serialized data size: 5223 bytes
+-------------------------------------------------------
+-------------------------------------------------------
+[Kryo] Number of executions: 10
+[Kryo] Batch size per execution: 100000
+[Kryo] Average time: 9857ms
+[Kryo] Initial execution time: 9991ms
+[Kryo] Average time (excluding first): 9843ms
+[Kryo] Average serialized data size: 5233 bytes
+-------------------------------------------------------
+-------------------------------------------------------
+[JSON] Number of executions: 10
+[JSON] Batch size per execution: 100000
+[JSON] Average time: 1870ms
+[JSON] Initial execution time: 1939ms
+[JSON] Average time (excluding first): 1863ms
+[JSON] Average serialized data size: 5295 bytes
+-------------------------------------------------------
