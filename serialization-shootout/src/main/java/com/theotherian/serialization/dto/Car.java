@@ -4,10 +4,11 @@ public class Car {
   
   public Car() {}
   
-  public Car(String name, String description, int numberOfSeats, int numberOfDoors, Color color, long timestamp,
+  public Car(String name, String description, String article, int numberOfSeats, int numberOfDoors, Color color, long timestamp,
       Drivetrain drivetrain, Engine engine) {
     this.name = name;
     this.description = description;
+    this.article = article;
     this.numberOfSeats = numberOfSeats;
     this.numberOfDoors = numberOfDoors;
     this.color = color;
@@ -25,6 +26,11 @@ public class Car {
   
   public String getDescription() { return description; }
   public void setDescription(String description) { this.description = description; }
+  
+  private String article;
+  
+  public String getArticle() { return article; }
+  public void setArticle(String article) { this.article = article; }
   
   private int numberOfSeats;
   
