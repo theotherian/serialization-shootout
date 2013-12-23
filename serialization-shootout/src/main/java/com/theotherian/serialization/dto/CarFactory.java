@@ -25,8 +25,8 @@ public class CarFactory {
     return new Car(
         NAMES[RANDOM.nextInt(NAMES.length)], 
         DESCRIPTIONS[RANDOM.nextInt(DESCRIPTIONS.length)], 
-//        ARTICLES[RANDOM.nextInt(ARTICLES.length)],
-        null,
+        ARTICLES[RANDOM.nextInt(ARTICLES.length)],
+//        null,
         RANDOM.nextInt(5), 
         RANDOM.nextInt(5), 
         Color.values()[RANDOM.nextInt(Color.values().length)], 
