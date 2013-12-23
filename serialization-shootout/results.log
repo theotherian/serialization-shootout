@@ -1,0 +1,113 @@
+-------------------------------------------------------
+[Smile] Number of executions: 100
+[Smile] Batch size per execution: 100000
+[Smile] Average time: 537ms
+[Smile] Initial execution time: 536ms
+[Smile] Average time (excluding first): 537ms
+-------------------------------------------------------
+-------------------------------------------------------
+[Kryo] Number of executions: 100
+[Kryo] Batch size per execution: 100000
+[Kryo] Average time: 514ms
+[Kryo] Initial execution time: 710ms
+[Kryo] Average time (excluding first): 512ms
+-------------------------------------------------------
+-------------------------------------------------------
+[JSON] Number of executions: 100
+[JSON] Batch size per execution: 100000
+[JSON] Average time: 608ms
+[JSON] Initial execution time: 618ms
+[JSON] Average time (excluding first): 608ms
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+[Smile] Number of executions: 100
+[Smile] Batch size per execution: 100000
+[Smile] Average time: 558ms
+[Smile] Initial execution time: 641ms
+[Smile] Average time (excluding first): 557ms
+-------------------------------------------------------
+-------------------------------------------------------
+[Kryo] Number of executions: 100
+[Kryo] Batch size per execution: 100000
+[Kryo] Average time: 507ms
+[Kryo] Initial execution time: 655ms
+[Kryo] Average time (excluding first): 506ms
+-------------------------------------------------------
+-------------------------------------------------------
+[JSON] Number of executions: 100
+[JSON] Batch size per execution: 100000
+[JSON] Average time: 617ms
+[JSON] Initial execution time: 692ms
+[JSON] Average time (excluding first): 616ms
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+[Smile] Number of executions: 100
+[Smile] Batch size per execution: 100000
+[Smile] Average time: 531ms
+[Smile] Initial execution time: 633ms
+[Smile] Average time (excluding first): 530ms
+-------------------------------------------------------
+-------------------------------------------------------
+[Kryo] Number of executions: 100
+[Kryo] Batch size per execution: 100000
+[Kryo] Average time: 492ms
+[Kryo] Initial execution time: 682ms
+[Kryo] Average time (excluding first): 490ms
+-------------------------------------------------------
+-------------------------------------------------------
+[JSON] Number of executions: 100
+[JSON] Batch size per execution: 100000
+[JSON] Average time: 580ms
+[JSON] Initial execution time: 672ms
+[JSON] Average time (excluding first): 579ms
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+[Smile] Number of executions: 100
+[Smile] Batch size per execution: 100000
+[Smile] Average time: 544ms
+[Smile] Initial execution time: 662ms
+[Smile] Average time (excluding first): 542ms
+-------------------------------------------------------
+-------------------------------------------------------
+[Kryo] Number of executions: 100
+[Kryo] Batch size per execution: 100000
+[Kryo] Average time: 492ms
+[Kryo] Initial execution time: 673ms
+[Kryo] Average time (excluding first): 490ms
+-------------------------------------------------------
+-------------------------------------------------------
+[JSON] Number of executions: 100
+[JSON] Batch size per execution: 100000
+[JSON] Average time: 585ms
+[JSON] Initial execution time: 690ms
+[JSON] Average time (excluding first): 583ms
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+[Smile] Number of executions: 100
+[Smile] Batch size per execution: 100000
+[Smile] Average time: 540ms
+[Smile] Initial execution time: 528ms
+[Smile] Average time (excluding first): 540ms
+-------------------------------------------------------
+-------------------------------------------------------
+[Kryo] Number of executions: 100
+[Kryo] Batch size per execution: 100000
+[Kryo] Average time: 497ms
+[Kryo] Initial execution time: 669ms
+[Kryo] Average time (excluding first): 495ms
+-------------------------------------------------------
+-------------------------------------------------------
+[JSON] Number of executions: 100
+[JSON] Batch size per execution: 100000
+[JSON] Average time: 619ms
+[JSON] Initial execution time: 561ms
+[JSON] Average time (excluding first): 620ms
+-------------------------------------------------------
